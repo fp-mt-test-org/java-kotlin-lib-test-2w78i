@@ -21,4 +21,5 @@ jobs:
         fetch-depth: 0
 
     - name: Build
-      run: $flex build
+      run: sed --version
+      
